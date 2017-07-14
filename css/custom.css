@@ -1,0 +1,249 @@
+/*! Place your custom styles here */
+.feature-icon, .process-icon {
+    display: inline-block;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 70px;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+.feature-icon:after, .process-icon:after, .trial-form button:after {
+    background: #A7BFE8 !important; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8,#1c92d2,#0082c8) !important ;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8,#1c92d2,#0082c8) !important ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.feature-icon span, .process-icon span {
+    color: #383838;
+    font-size: 30px;
+    line-height: 69px;
+    position: relative;
+    z-index: 1;
+}
+.single-feature:hover .feature-icon:after, .single-process:hover .process-icon:after, .trial-form button:hover:after { 
+    opacity: 1; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.single-feature:hover .feature-icon span, .single-process:hover .process-icon span {color: #fff}
+.feature-text {
+    overflow: hidden;
+    padding-left: 30px
+}
+
+.single-abt-product .abt-img {
+    position: absolute;
+    top: 0;
+    width: 54.3%;
+}
+.single-abt-product:nth-child(odd) .abt-img {right: 0;}
+.single-abt-product:nth-child(even) .abt-img {left: 0; right: auto;}
+.single-abt-product {padding-bottom: 107px; position: relative;}
+.single-abt-product:last-child {padding-bottom: 0;}
+.abt-product-text h3 {margin-bottom: 16px;}
+.abt-product-text .default-btn {margin-bottom: 10px; margin-top: 10px;}
+
+.white{
+	color: white
+}
+
+.service-icon {
+    color: #383838;
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 51px;
+}
+.service-text {overflow: hidden;}
+.service-text > p {color: #383838;}
+.service-text > h4 {
+    line-height: 17px;
+    margin-bottom: 16px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.single-service:hover .service-text > h4, .single-service:hover .service-icon {color: #0575E6;}  /* fallback for old browsers */
+ 
+.single-service {margin-bottom: 45px;}
+.process-icon {float: none; margin-bottom: 17px;}
+.single-process {
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+}
+.border {
+    background: rgba(0, 0, 0, 0) url("border.png") repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    position: absolute;
+    right: -118px;
+    top: 33px;
+    width: 236px;
+}
+.col-md-4:last-child .border {display: none}
+.process-icon > span {
+    color: #5a5a5a;
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-process > h4 {margin-bottom: 11px;}
+.single-process > p {margin: 2px;}
+.service-icon {
+    color: #383838;
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 51px;
+}
+
+.nav.nav-tabs {
+    border: 0 none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    color: #79b0e7;
+}
+.nav-tabs > li {
+    margin: 0;
+    padding-bottom: 38px;
+    display: block;
+    float: none;
+}
+.nav-tabs > li:last-child {
+    margin: 0;
+    padding: 0;
+}
+.nav-tabs > li > a {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0;
+    padding: 0 0 0 44px;
+    position: relative;
+}
+.featuer-text-container {
+    padding-left: 60px;
+}
+.featuer-text-container .section-title {
+    margin-right: 100px;
+    padding-top: 10px;
+}
+.nav-tabs > li > a img {
+    filter: brightness(1%) invert(0);
+    -webkit-filter: brightness(1%) invert(0);
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+}
+.nav-tabs > li.active > a img,
+.nav-tabs > li.active > a:focus img,
+.nav-tabs > li > a:hover img,
+.nav-tabs > li.active > a:hover img {
+    filter: brightness(100%) invert(0%);
+    -webkit-filter: brightness(100%) invert(0%);
+}
+.feature-list {
+    padding-top: 6px;
+}
+.feature-text > span {
+    background: #6b9dd5 none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.59);
+    display: inline-block;
+    height: 51px;
+    line-height: 51px;
+    margin-bottom: 23px;
+    width: 51px;
+}
+.feature-text {
+    text-align: center;
+}
+.feature-text > h4 {
+    margin-bottom: 20px;
+}
+.tab-content {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 63px;
+    padding: 50px 30px 39px;
+}
+.feature-product-text {
+    padding-right: 50px;
+    padding-top: 46px;
+}
+.feature-product-text p {
+    margin-bottom: 31px;
+}
+.feature-product-text .default-btn:hover {
+    background: #303030 none repeat scroll 0 0;
+    border-color: #303030;
+    color: #ffffff;
+}
+.feature-product-img {
+    text-align: right;
+}
+.cd-pricing-header {
+  
+  z-index: 1;
+  height: 80px;
+  
+  pointer-events: none;
+  
+}
+.cd-pricing-header h2 {
+  margin-bottom: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cd-pricing-features {
+  width: 600px;
+}
+.cd-pricing-features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-pricing-features li {
+  width: 100px;
+  float: left;
+  padding: 1.6em 1em;
+  font-size: 1.4rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cd-pricing-features em {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
